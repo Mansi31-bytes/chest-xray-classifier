@@ -1,0 +1,13 @@
+{
+  "model": "Baseline CNN (4-block, from scratch)",
+  "accuracy": 0.7997,
+  "auc_roc": 0.9181,
+  "sensitivity": 0.9513,
+  "specificity": 0.547,
+  "precision": 0.7778,
+  "f1": 0.8558,
+  "tp": 371,
+  "fp": 106,
+  "tn": 128,
+  "fn": 19
+}

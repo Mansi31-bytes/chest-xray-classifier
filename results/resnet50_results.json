@@ -1,0 +1,13 @@
+{
+  "model": "ResNet-50 (fine-tuned, ImageNet)",
+  "accuracy": 0.8494,
+  "auc_roc": 0.9647,
+  "sensitivity": 0.9949,
+  "specificity": 0.6068,
+  "precision": 0.8083,
+  "f1": 0.892,
+  "tp": 388,
+  "fp": 92,
+  "tn": 142,
+  "fn": 2
+}
