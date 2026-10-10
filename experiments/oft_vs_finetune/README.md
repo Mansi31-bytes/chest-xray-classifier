@@ -62,15 +62,14 @@ throughout training.
 
 ## Important caveats — read before citing any number here
 
-- **No pretrained weights.** This sandbox could not reach
-  `download.pytorch.org`, so both models trained from random initialization,
-  not from ImageNet-pretrained weights (and not from my actual
-  `resnet50_best.pth` checkpoint — that file is a Git LFS pointer, not
-  fetchable from this environment either).
-- **CPU-only, single run.** No GPU, 2 cores. One seed, one run per method —
-  no variance estimate across seeds.
+- **No pretrained weights.** I trained both models from random
+  initialization rather than from ImageNet-pretrained weights or my original
+  `resnet50_best.pth` checkpoint, since this comparison ran in a compute
+  environment without network access to a weights host.
+- **CPU-only, single run.** No GPU, 2 cores available. One seed, one run per
+  method — no variance estimate across seeds.
 - **96×96 resolution**, downsized from the 224×224 used in the original
-  pipeline, for CPU runtime.
+  pipeline, to keep training time reasonable on CPU.
 
 So: the *direction* of the effect (OFT more parameter-efficient, more
 stable explanations, less overfitting on this subset) is a real, reproducible
