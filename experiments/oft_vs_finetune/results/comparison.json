@@ -1,0 +1,30 @@
+{
+  "stage1_acc": 0.6842948717948718,
+  "stage1_loss": 0.5587287606337131,
+  "baseline": {
+    "final_acc": 0.7163461538461539,
+    "final_loss": 1.3995601331862884,
+    "sensitivity_pneumonia": 0.9743589743339908,
+    "specificity_normal": 0.2863247863125502,
+    "mean_cam_stability_vs_stage1": 0.43734757136553526,
+    "trainable_params": 16014850
+  },
+  "oft": {
+    "final_acc": 0.7836538461538461,
+    "final_loss": 0.5187567396041675,
+    "sensitivity_pneumonia": 0.9076923076690335,
+    "specificity_normal": 0.576923076898422,
+    "mean_cam_stability_vs_stage1": 0.6832921048626304,
+    "trainable_params": 69120,
+    "mean_orthogonality_error": 8.845610182106611e-07
+  },
+  "stage1_sensitivity_pneumonia": 0.6871794871618672,
+  "stage1_specificity_normal": 0.6794871794581415,
+  "dataset": {
+    "train_n": 5216,
+    "test_n": 624,
+    "img_size": 96,
+    "stage1_epochs": 6,
+    "stage2_epochs": 10
+  }
+}
